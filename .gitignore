@@ -1,0 +1,6 @@
+# Ignore node_modules everywhere
+**/node_modules/
+
+# Ignore any .env files (including .env.local etc.)
+*.env
+*.env.*
