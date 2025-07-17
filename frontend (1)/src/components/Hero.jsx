@@ -159,7 +159,7 @@ const Hero = () => {
           playsInline
         >
           <source
-            src="https://videos.pexels.com/video-files/2818559/2818559-sd_640_360_24fps.mp4"
+            src="https://videos.pexels.com/video-files/3674440/3674440-uhd_2560_1440_30fps.mp4"
             type="video/mp4"
           />
         </video>
