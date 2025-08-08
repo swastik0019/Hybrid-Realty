@@ -919,7 +919,7 @@ const PropertyDetails = () => {
                     </div>
                     <div>
                       <p className="font-medium">
-                        {import.meta.env.VITE_CONTACT_NUMBER || "9911791469"}
+                        {import.meta.env.VITE_CONTACT_NUMBER || "9999999999"}
                       </p>
                       <p className="text-xs text-gray-500">Call or WhatsApp</p>
                     </div>
@@ -977,7 +977,7 @@ const PropertyDetails = () => {
 
                   <a
                     href={`tel:${
-                      import.meta.env.VITE_CONTACT_NUMBER || "9911791469"
+                      import.meta.env.VITE_CONTACT_NUMBER || "9999999999"
                     }`}
                     className="w-full bg-white border border-gray-200 text-gray-700 py-3 rounded-xl hover:bg-gray-50 transition-all duration-300 flex items-center justify-center gap-2 font-medium"
                   >

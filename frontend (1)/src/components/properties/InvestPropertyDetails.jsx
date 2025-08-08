@@ -1079,7 +1079,7 @@ const InvestPropertyDetails = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-800">
-                      {import.meta.env.VITE_CONTACT_NUMBER || "9911791469"}
+                      {import.meta.env.VITE_CONTACT_NUMBER || "9999999999"}
                     </p>
                     <p className="text-xs text-gray-500">
                       Call our investment specialist
@@ -1104,7 +1104,7 @@ const InvestPropertyDetails = () => {
 
               <a
                 href={`tel:${
-                  import.meta.env.VITE_CONTACT_NUMBER || "9911791469"
+                  import.meta.env.VITE_CONTACT_NUMBER || "9999999999"
                 }`}
                 className="w-full bg-blue-100 text-blue-700 py-3 rounded-xl hover:bg-blue-200 transition-all duration-300 flex items-center justify-center gap-2 font-medium"
               >
