@@ -343,7 +343,7 @@ const InvestmentPropertyCard = ({ property }) => {
           <div className="flex justify-between items-center">
             <div>
               <p className="text-xs text-green-700 font-medium">
-                Monthly Income
+                Monthly Rent
               </p>
               <div className="flex items-center text-green-500 font-bold text-sm md:text-base">
                 <IndianRupee className="h-3 w-3 md:h-4 md:w-4" />

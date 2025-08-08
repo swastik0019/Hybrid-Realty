@@ -620,7 +620,7 @@ const InvestPropertyDetails = () => {
                 <div className="text-2xl font-bold">
                   ₹{Number(investmentPrice).toLocaleString("en-IN")}
                 </div>
-                <div className="text-xs text-white/80">Monthly Income</div>
+                <div className="text-xs text-white/80">Monthly Rent</div>
               </div>
               {/* <div className="text-center">
                 <div className="text-2xl font-bold">
@@ -936,7 +936,7 @@ const InvestPropertyDetails = () => {
                         <IndianRupee className="w-4 h-4 text-blue-500" />
                       </div>
                       <span className="text-sm font-medium text-gray-600">
-                        Monthly Income
+                        Monthly Rent
                       </span>
                     </div>
                     <p className="text-xl font-bold text-blue-600">
@@ -1079,7 +1079,7 @@ const InvestPropertyDetails = () => {
                   </div>
                   <div>
                     <p className="font-medium text-gray-800">
-                      {import.meta.env.VITE_CONTACT_NUMBER || "9999999999"}
+                      {import.meta.env.VITE_CONTACT_NUMBER || "9911791469"}
                     </p>
                     <p className="text-xs text-gray-500">
                       Call our investment specialist
@@ -1104,7 +1104,7 @@ const InvestPropertyDetails = () => {
 
               <a
                 href={`tel:${
-                  import.meta.env.VITE_CONTACT_NUMBER || "9999999999"
+                  import.meta.env.VITE_CONTACT_NUMBER || "9911791469"
                 }`}
                 className="w-full bg-blue-100 text-blue-700 py-3 rounded-xl hover:bg-blue-200 transition-all duration-300 flex items-center justify-center gap-2 font-medium"
               >
@@ -1447,7 +1447,7 @@ const InvestPropertyDetails = () => {
                       <div className="grid grid-cols-2 gap-3 text-center">
                         <div>
                           <div className="text-xs uppercase tracking-wider mb-1">
-                            Monthly Income
+                            Monthly Rent
                           </div>
                           <div className="text-xl font-bold">
                             ₹{Number(investmentPrice).toLocaleString("en-IN")}
